@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* hero-section style */
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+    cursor: pointer;
+}
+
+#hero-section {
+    height: 615px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section .hero-content .hero-img {
+    margin-bottom: 10px;
+}
+
+#hero-section .hero-content .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#hero-section .hero-content .description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+/* main-style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* whyweb-section style */
+#whyweb {
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 95px;
+    margin-top: 170px;
+    margin-bottom: 90px;
+}
+
+#whyweb .whyweb-container {
+    max-width: 945px;
+}
+
+.reason-header {
+    margin-bottom: 48px;
+}
+
+.reason-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reason-answer {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+
+#whyweb .whyweb-container .detail-out-container {
+    align-items: center;
+}
+
+.detail-in-container {
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 95px;
+}
+
+.detail-in-container2 {
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
+    padding: 48px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 95px;
+}
+
+.part-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 470px;
+}
+
+.part-inside .heading {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.part-inside .explain {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.btn-type2 {
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* inspiration section style */
+#inspiration {
+    margin-bottom: 150px;
+}
+
+.new-margin {
+    margin: 0 144px;
+}
+
+.video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.video iframe {
+    width: 1075px;
+    height: 550px;
+}
