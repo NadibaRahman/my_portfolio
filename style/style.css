@@ -7,25 +7,6 @@
 }
 
 /* hero-section style */
-.btn-container {
-    text-align: center;
-}
-
-.btn {
-    padding: 21px 24px 21px 24px;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    border: none;
-    cursor: pointer;
-}
-
 #hero-section {
     height: 615px;
     background-image: url(../assets/Hero-bg.png);
@@ -56,6 +37,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 14px;
+    max-width: 990px;
 }
 
 .description {
@@ -71,6 +53,27 @@
 
 .margin {
     margin-bottom: 32px;
+    max-width: 850px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
 }
 
 /* main-style */
@@ -178,6 +181,7 @@ main {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    background: none;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -203,6 +207,7 @@ main {
 .video iframe {
     width: 1075px;
     height: 550px;
+    border-radius: 16px;
 }
 
 /* current tagert section style */
@@ -215,6 +220,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    max-width: 1140px;
 }
 
 .card-1 {
@@ -233,6 +239,13 @@ main {
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img {
+    margin-bottom: 24px;
+
 }
 
 .card-head {
@@ -264,6 +277,40 @@ main {
 /* next target section style */
 #next-target {
     margin-bottom: 45px;
+}
+
+.flat-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1140px;
+}
+
+.flat-card {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.flat-card-img1 {
+    width: 94.78px;
+    height: 84px;
+}
+
+.flat-card-img2 {
+    width: 140px;
+    height: 55px;
+}
+
+.flat-card-img3 {
+    width: 105px;
+    height: 105px;
 }
 
 /* I need support section style */
@@ -299,7 +346,7 @@ main {
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    margin-bottom: 24px;
+    margin-bottom: 35px;
 }
 
 .submit-part {
